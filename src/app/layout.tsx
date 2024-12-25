@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins, Unlock } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Header from "@/components/layouts/Header";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -27,7 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={cn("antialiased", poppins.variable, unlock.variable)}>
-        <Header />
         {children}
       </body>
     </html>
