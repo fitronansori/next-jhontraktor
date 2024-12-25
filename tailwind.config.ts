@@ -18,6 +18,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["var(--font-poppins)", "sans-serif"],
+        unlock: ["var(--font-unlock)", "sans-serif"],
       },
       colors: {
         background: "hsl(var(--background))",
